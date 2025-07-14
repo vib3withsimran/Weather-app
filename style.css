@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;   
+}
+header{
+    height: 10vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 15px;
+    font-size: 3em;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.nav{
+    margin-right: 50px;
+}
+.nav:hover{
+    scale: 1.1;
+}
+.line{
+    width:100%;
+    height: 1px;
+    background-color: beige;
+}
+.home{
+    height: 80vh;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#city{
+    height: 25px;
+    width: 30%;
+    border: none;
+    background-color: beige;
+    color: rgb(71, 71, 9);
+    border-radius: 10px;
+    font-size: 0.8rem;
+    padding: 6px;
+}
+.submit{
+    height: 30px;
+    width:100px;
+    margin: 10px;
+    background-color: #FAC638;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    border-width: 0.1rem;
+    transition: all 0.3s ease-in-out;
+}
+.submit:hover{
+    scale: 1.1;
+    background-color: #fbca42;
+}
+.img{
+    height: 170px;
+    width: 80%;
+    opacity: .9;
+    background-position: 0% 38%;
+    background-size: cover;
+    border-radius: 8px;
+}
+.weather{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 900;
+    text-shadow: 2px 2px black;
+    margin-top: 120px;
+    margin-left: 15px;
+}
+.note{
+    display: block;
+    font-size: 1rem;
+    margin: 1rem 1rem 1rem 1rem;
+}
